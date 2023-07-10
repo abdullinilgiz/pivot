@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#curriculum {
+    margin-top: 1rem;
+    color: grey;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 920px;
+}
+
+div p{
+    text-align: right;
+}
+
+div.name {
+    margin-left: auto 0 auto 1rem;
+}
+
+.flex-cont {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.left {
+    width: 20%;
+    min-height: 2px;
+    text-align: right;
+}
+
+.right {
+    max-width: 75%;
+}
+
+.line {
+    height: 4px;
+    width: 90%;
+    margin: 0 1rem;
+    background-color: rgb(70, 157, 57);
+}
+
+#footer-line {
+    width: 95%;
+    margin: 1.5rem auto;
+}
+
+#footer-flex {
+    justify-content:space-evenly;
+}
+
+footer {
+    padding-bottom: 1rem;
+}
+
+.icon-footer {
+    width: 3rem;
+}
+
+.contact {
+    margin: auto 0.3rem auto 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid white;
+}
+
+a:hover {
+    background-color: linen;
+    border: 1px solid grey;
+}
+
+a.footer-link {
+    padding: 1rem;
+}
+
+a.footer-link:hover {
+    /* background: linear-gradient(rgb(81, 150, 127), rgb(115, 220, 171), rgb(81, 150, 127)); */
+    background: linear-gradient(rgb(85, 172, 72), rgb(165, 237, 123), rgb(85, 172, 72));
+    border: 1px solid rgb(0, 0, 0);
+}
+
+span { 
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.3rem;
+    margin: 0.25rem;
+}
+
+section {
+    margin-bottom: 1rem;;
+}
+
+.contact-info {
+    font-size: 1rem;
+    display: block;
+}
+
+i, .inline {
+    display: inline;
+}
+
+div.flex-cont {
+    margin-bottom: 0.2rem;
+}
+
+.icon {
+    width: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 800px) {
+    html {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    html {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+/* @media screen and (max-width: 380px) {
+    html {
+        font-size: 8px;
+    }
+} */
