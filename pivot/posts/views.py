@@ -19,7 +19,7 @@ def get_page_object(request, objects, posts_per_page):
     return paginator.get_page(page_number)
 
 
-@cache_page(20, key_prefix='index_page')
+# @cache_page(20, key_prefix='index_page')
 def index(request):
     post_list = Post.objects.all()
     page_obj = get_page_object(request, post_list, POSTS_PER_PAGE)
