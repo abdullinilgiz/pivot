@@ -1,14 +1,6 @@
 # PIVOT
 ### Description
-Simple social platform called 'Pivot' where users can share their own diaries.
-### TechStack
-Python3.10
-Django 4.2.3
-DRF 3.14.0
-Pillow 10.0.0
-djoser 2.2.0g
-### Author
-Ilgiz Abdullin
+Simple social platform called 'Pivot' where users can share their posts with text and images.
 ### Installation
 Clone this repository to your working folder:
 ```
@@ -60,3 +52,15 @@ With payload:
   "group": 0
 }
 ```
+### TechStack
+Python3.10
+
+Django 4.2.3
+
+DRF 3.14.0
+
+Pillow 10.0.0
+
+djoser 2.2.0g
+### Author
+Ilgiz Abdullin
