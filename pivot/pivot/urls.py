@@ -22,6 +22,7 @@ handler404 = 'core.views.page_not_found'
 handler403 = 'core.views.csrf_failure'
 
 urlpatterns = [
+    path('api/', include('api.urls')),
     path('about/', include('about.urls', namespace='about')),
     path('admin/', admin.site.urls),
     path('auth/', include('users.urls')),

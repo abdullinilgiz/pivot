@@ -20,10 +20,6 @@
         </li>
       </ul>
       {% thumbnail post.image.url as im %}
-        <p>{{im}}</p>
-        <p>{{im.url}}</p>
-        <p>{{post.image}}</p>
-        <p>{{post.image.url}}</p>
         <img src="{{ post.image.url }}">
       {% endthumbnail %}
       <p>{{ post.text }}</p>
