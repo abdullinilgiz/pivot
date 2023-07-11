@@ -6,7 +6,7 @@ Python3.10
 Django 4.2.3
 DRF 3.14.0
 Pillow 10.0.0
-djoser 2.2.0
+djoser 2.2.0g
 ### Author
 Ilgiz Abdullin
 ### Installation
